@@ -1,5 +1,5 @@
 import AnimatedTabs from "@/components/animated-tabs";
-// import AppStoreList from "@/components/app-store-list";
+import AppStoreList from "@/components/app-store-list";
 // import ConfirmButton from "@/components/confirm-button";
 // import FamilyDialog from "@/components/family-dialog";
 // import ImageReveal from "@/components/image-reveal";
@@ -20,8 +20,8 @@ export default function Home() {
         </div>
       </div>
       <AnimatedTabs />
-      {/* <AppStoreList />
-      <FamilyDialog />
+      <AppStoreList />
+      {/*<FamilyDialog />
       <ConfirmButton />
       <ImageReveal />
       <StaggeredImages />
