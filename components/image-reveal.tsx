@@ -38,6 +38,7 @@ const ImageReveal = () => {
       setContainerWidth(width);
       x.set(width * 0.5);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
