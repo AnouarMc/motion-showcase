@@ -4,8 +4,8 @@ import ConfirmButton from "@/components/confirm-button";
 import FamilyDialog from "@/components/family-dialog";
 import ImageReveal from "@/components/image-reveal";
 import MultiStateButton from "@/components/multi-state-button";
-// import MultiStepForm from "@/components/multi-step-form";
-// import StaggeredImages from "@/components/staggered-images";
+import MultiStepForm from "@/components/multi-step-form";
+import StaggeredImages from "@/components/staggered-images";
 
 export default function Home() {
   return (
@@ -24,8 +24,8 @@ export default function Home() {
       <FamilyDialog />
       <ConfirmButton />
       <ImageReveal />
-      {/*<StaggeredImages />
-      <MultiStepForm /> */}
+      <StaggeredImages />
+      <MultiStepForm />
       <MultiStateButton />
     </div>
   );
