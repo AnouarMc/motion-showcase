@@ -1,6 +1,6 @@
 import AnimatedTabs from "@/components/animated-tabs";
 import AppStoreList from "@/components/app-store-list";
-// import ConfirmButton from "@/components/confirm-button";
+import ConfirmButton from "@/components/confirm-button";
 // import FamilyDialog from "@/components/family-dialog";
 // import ImageReveal from "@/components/image-reveal";
 // import MultiStateButton from "@/components/multi-state-button";
@@ -21,9 +21,9 @@ export default function Home() {
       </div>
       <AnimatedTabs />
       <AppStoreList />
-      {/*<FamilyDialog />
+      {/* <FamilyDialog /> */}
       <ConfirmButton />
-      <ImageReveal />
+      {/*<ImageReveal />
       <StaggeredImages />
       <MultiStepForm />
       <MultiStateButton /> */}
