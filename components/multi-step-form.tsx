@@ -5,7 +5,7 @@ import useMeasure from "react-use-measure";
 import { motion, AnimatePresence, MotionConfig } from "motion/react";
 
 const steps = [
-  <div className="space-y-4">
+  <div className="space-y-4" key="step-1">
     <h2 className="font-bold text-lg">Step 1/3</h2>
     <div>
       Please provide your basic personal details. This helps us set up your
@@ -18,7 +18,7 @@ const steps = [
       <div className="w-72 h-6 rounded-sm bg-zinc-800 max-w-full" />
     </div>
   </div>,
-  <div className="space-y-4">
+  <div className="space-y-4" key="step-2">
     <h2 className="font-bold text-lg">Step 2/3</h2>
     <div>
       Choose a username and password. Make sure your password is strong and
@@ -30,7 +30,7 @@ const steps = [
       <div className="w-72 h-6 rounded-sm bg-zinc-800 max-w-full" />
     </div>
   </div>,
-  <div className="space-y-4">
+  <div className="space-y-4" key="step-3">
     <h2 className="font-bold text-lg">Step 3/3</h2>
     <div>
       Select your preferences to help us tailor your experience. You can always
