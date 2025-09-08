@@ -3,7 +3,7 @@ import AppStoreList from "@/components/app-store-list";
 import ConfirmButton from "@/components/confirm-button";
 import FamilyDialog from "@/components/family-dialog";
 import ImageReveal from "@/components/image-reveal";
-// import MultiStateButton from "@/components/multi-state-button";
+import MultiStateButton from "@/components/multi-state-button";
 // import MultiStepForm from "@/components/multi-step-form";
 // import StaggeredImages from "@/components/staggered-images";
 
@@ -25,8 +25,8 @@ export default function Home() {
       <ConfirmButton />
       <ImageReveal />
       {/*<StaggeredImages />
-      <MultiStepForm />
-      <MultiStateButton /> */}
+      <MultiStepForm /> */}
+      <MultiStateButton />
     </div>
   );
 }
